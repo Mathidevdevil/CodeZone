@@ -1,0 +1,136 @@
+--------------------------------------------------------------------------------------------------- DAY 1(15-04-2025)------------------------------------------------------------------------------------------------------------------
+                                                                                                     JAVA PROGRAMMING
+====================================================================
+Q 1. what is the output of this program? 
+    package mathi;
+    
+    public class tasks1 {
+    
+    	  public static void main(String[] args) { 
+              int x=20; 
+              System.out.println(x); 
+         } 
+         static { 
+              int x = 10; 
+              System.out.println(x+" "); 
+        }
+    	}
+====================================================================
+Q 2. What is the output of this below program ? 
+      package mathi;
+      
+      public class tasks1 {
+      	static { 
+      		  System.out.println("Test2 class Static Block"); 
+      		} 
+      		public static  void main(String[] args) { 
+      		 System.out.println("Test2 class main method"); 
+      		}  
+      }
+
+=====================================================================
+Q 3. What is the output of this below program ?
+      package mathi;
+      
+      public class tasks1 {
+      	public static  void  main(String[] args) { 
+      	    int a=1; 
+      	 System.out.println("A :" +a); 
+      	}  
+      }
+
+
+========================================================================
+Q 4. Can we declare local variable as static if not what is the error?
+      package mathi;
+      
+      public class tasks1 {
+          static int x = 10; 
+          public static void main(String[] args) {
+              System.out.println(x);
+          }
+      }
+
+======================================================================================================================================
+Q 5. Define a class having one static variable say  static int x=10 and invoke x variable in m1() and main(-)  what is the output ?  
+        package mathi;
+        
+        public class tasks1 {
+        	static int x = 10; 
+        	  void m1() { 
+        	   System.out.println("m1 X : "+x); 
+        	  } 
+        	  public static void main(String[] args) { 
+        	   System.out.println("main X : "+x);    
+        	  }
+        }
+==============================================================================================================
+Q 6. Is it possible to access non-static variable in static method directly if not what is the error ?
+        package mathi;
+        
+        public class tasks1 {
+        	static int a= 10; 
+        	  public static void main(String[] args) { 
+        	   System.out.println("A  value :"+a); 
+        	  }
+        }
+==================================================================================
+Q 7 . What are the different ways are there to call static variables ? 
+        package mathi;
+        
+        public class tasks1 {
+        	  static int a= 20; 
+        	  public static void main(String[] args) { 
+        	   System.out.println("access a variable :" +a);
+        	   System.out.println("Access using Class Name: " + tasks1.a);
+        	  }
+        }
+=================================================================================
+Q 8. What are the different ways to call/invoke static methods from main method  
+        package mathi;
+        
+        public class tasks1 {
+        	static void m1() { 
+        		   System.out.println("tasks1 : m1() called"); 
+        		  } 
+        		 
+        		  public static void main(String[] args) { 
+        			  m1();
+        			  tasks1.m1();
+        			  tasks1 obj = new tasks1();
+        			    obj.m1();
+        		  } 
+        }
+====================================================================
+Q 9. What is the output of the below program ?
+            package mathi;
+            
+            public class tasks1 {
+            	static void m1() { 
+            		   System.out.println("Test9 : m1()"); 
+            		  } 
+            		  static void m2() { 
+            		   System.out.println("Test9 : m2()"); 
+            		  } 
+            		 
+            		  public static void main(String[] args) { 
+            		   m1(); 
+            		   m2(); 
+            		  }
+            }
+======================================================================
+Q 10. What is the output of the below program ?
+        package mathi;
+        
+        public class tasks1 {
+        	static{ 
+        		   System.out.println("SB1"); 
+        		  } 
+        		  static void m1() { 
+        		   System.out.println("m1()"); 
+        		  } 
+        		  public static void main(String []args) { 
+        		   tasks1.m1(); 
+        		  }
+        }
+=======================================================================
