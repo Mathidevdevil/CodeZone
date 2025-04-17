@@ -52,7 +52,7 @@ Q 4. Can we declare local variable as static if not what is the error?
       }
 
 ====================================================================================================================================== 
-Q 5. Define a class having one static variable say  static int x=10 and invoke x variable in m1() and main(-)  what is the output ?   OUTPUT
+Q 5. Define a class having one static variable say  static int x=10 and invoke x variable in m1() and main(-)  what is the output ?   
         package mathi;
         
         public class tasks1 {
@@ -64,7 +64,7 @@ Q 5. Define a class having one static variable say  static int x=10 and invoke x
         	   System.out.println("main X : "+x);    
         	  }
         }
-==============================================================================================================  OUTPUT
+==============================================================================================================  
 Q 6. Is it possible to access non-static variable in static method directly if not what is the error ?
         package mathi;
         
@@ -74,7 +74,7 @@ Q 6. Is it possible to access non-static variable in static method directly if n
         	   System.out.println("A  value :"+a); 
         	  }
         }
-==================================================================================   OUTPUT
+==================================================================================   
 Q 7 . What are the different ways are there to call static variables ? 
         package mathi;
         
@@ -86,7 +86,7 @@ Q 7 . What are the different ways are there to call static variables ?
         	  }
         }
 =================================================================================
-Q 8. What are the different ways to call/invoke static methods from main method       OUTPUT  
+Q 8. What are the different ways to call/invoke static methods from main method       
         package mathi;
         
         public class tasks1 {
@@ -102,7 +102,7 @@ Q 8. What are the different ways to call/invoke static methods from main method 
         		  } 
         }
 ====================================================================
-Q 9. What is the output of the below program ?                          OUTPUT
+Q 9. What is the output of the below program ?                          
             package mathi;
             
             public class tasks1 {
@@ -119,7 +119,7 @@ Q 9. What is the output of the below program ?                          OUTPUT
             		  }
             }
 ======================================================================
-Q 10. What is the output of the below program ?                            OUTPUT
+Q 10. What is the output of the below program ?                            
         package mathi;
         
         public class tasks1 {
@@ -147,12 +147,9 @@ Q 10. What is the output of the below program ?                            OUTPU
           	public static void main(String[] args) {
           		Scanner s=new Scanner(System.in);
           
-          		                                                           ======================================================= 
-          		System.out.println("Enter the Employee name");             |  OUTPUT :  Employee Name is AnuPriya                |
-                                                                         |           Employee Address is Chinna Salem          | 
-                                                                         |           Employee ID is 118                        |
-                                                                         |           Employee Mobile no is 8365482491          |
-          		String name=s.nextLine();                                  =======================================================
+          		                                                                              
+          		System.out.println("Enter the Employee name");                                
+          		String name=s.nextLine();             
           		
           		System.out.println("Enter the Employee addreess");
           		String adrs=s.nextLine();
@@ -170,5 +167,11 @@ Q 10. What is the output of the below program ?                            OUTPU
           	}
           
           }
- =============================================================================  
+-------------------------------------
+OUTPUT : 
+Employee Name is AnuPriya                
+Employee Address is Chinna Salem           
+Employee ID is 118                        
+Employee Mobile no is 8365482491
+=============================================================================  
          
